@@ -29,7 +29,7 @@ pushd server-ou-audit
 1. Download the script `Get-ServerInfo.ps1` to your local machine. (See Install from above)
 2. Prepare a text file (e.g., `servers.txt`) that contains a list of server names, each on a new line.
 
-   1. You can use the following if you need to:
+   - You can use the following if you need to:
 
    ```powershell
    $(Get-AdComputer -LdapFilter:"(name=myservername*)").Name | Set-Content (Join-Path $([System.environment]::GetFolderPath("Desktop")) "servers.txt")
