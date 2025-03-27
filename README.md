@@ -11,6 +11,17 @@ This PowerShell script reads a list of server names from a specified input file,
 - A valid Active Directory environment
 - The input file should be a text file containing a list of server names, one per line
 
+## Install
+
+1. Open a powershell terminal, and choose a path in which to save the repo.
+2. Run the following to clone the repo into a local directory:
+
+```shell
+git clone https://github.com/acelaya77/server-ou-audit.git
+
+pushd server-ou-audit
+```
+
 ## Usage
 
 ### Running the Script
