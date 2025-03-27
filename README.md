@@ -32,7 +32,8 @@ pushd server-ou-audit
    - You can use the following if you need to:
 
    ```powershell
-   $(Get-AdComputer -LdapFilter:"(name=myservername*)").Name | Set-Content (Join-Path $([System.environment]::GetFolderPath("Desktop")) "servers.txt")
+   $(Get-AdComputer -LdapFilter:"(name=myservername*)").Name |
+   Set-Content (Join-Path $([System.environment]::GetFolderPath("Desktop")) "servers.txt")
    ```
 
 3. Open a PowerShell window and navigate to the directory where the script is located.
