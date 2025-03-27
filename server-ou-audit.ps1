@@ -15,8 +15,8 @@
 
 .NOTES
     File version: 1.0
-    Author: Your Name
-    Last updated: Date
+    Author: Anthony J. Celaya
+    Last updated: 2025-03-26
 
 #>
 
